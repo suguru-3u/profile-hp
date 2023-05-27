@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", "メイリオ";
+}
+
+header {
+  background-color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header span {
+  color: white;
+  padding: 0 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+header ul {
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+header ul li {
+  display: inline-block;
+  border: 1px;
+  color: white;
+  text-align: center;
+  padding: 20px 30px;
+}
+
+header ul li:hover {
+  background-color: #111;
+}
+
+main {
+  margin: 100px 0 50px 0;
+}
+
+#introduction {
+  display: flex;
+}
+
+#introduction-img {
+  display: inline-block;
+  text-align: right;
+  width: 45%;
+}
+
+#introduction-img img {
+  margin-top: 30px;
+  border: inset;
+  border-radius: 30%;
+}
+
+#introduction-content {
+  padding: 0 50px;
+  display: inline-block;
+}
+
+#introduction-content ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#skill {
+  margin-top: 100px;
+}
+
+#skill h1 {
+  text-align: center;
+}
+
+#skill-img ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+}
+
+#skill-js ul li:nth-child(2) {
+  margin: 0 100px;
+}
+
+#skill-backend ul li:nth-child(2) {
+  margin: 0 100px;
+}
+
+#project {
+  display: grid;
+}
+
+#project h1 {
+  text-align: center;
+}
+
+#project-cards {
+  display: flex;
+  text-align: center;
+  justify-self: center;
+  margin: 50px 0;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  max-width: 400px;
+  margin: 0 30px;
+}
+
+.card img {
+  width: 400px;
+  height: 300px;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+footer {
+  height: 100px;
+  background-color: #333;
+  color: azure;
+}
+
+footer p {
+  text-align: center;
+  line-height: 100px;
+  margin: 0;
+}
+
+#portforio {
+  text-align: center;
+}
